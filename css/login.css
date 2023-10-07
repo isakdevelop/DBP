@@ -1,0 +1,138 @@
+*{
+	margin:0;
+	padding:0;
+}
+.container{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-top: 21px;
+}
+.container .main-wrap .main-logo{
+	padding-top:55px;
+}
+.container .main-wrap header .main-logo{
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+
+
+}
+.main-button {
+	width: 50%;
+	height: 50%;
+	border: none;
+	cursor: pointer;
+	background: none;
+	align-content: center;
+}
+.login-input-section-wrap{
+	width: 100%;
+	padding-top: 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.login-input-wrap{
+	width: 100%;
+	height :48px;
+	border: solid 1px #dadada;
+	background: white;
+}
+#pw{
+	margin-top: 13px;
+}
+#id-input, #pw-input{
+	border: none;
+	width:80%;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+	outline: 0;
+}
+.login-button {
+	padding-top: 13px;
+}
+.login-button button{
+	width: 100%;
+	height :48px;
+	font-size: 18px;
+	background: blue;
+	border-color: blue;
+	color: white;
+}
+.join-me{
+	width: 465px;
+	height: 40px;
+    margin: 15px 20px 0px 0px;
+    text-align: right;
+	font-size: 15px;
+}
+.join-me a{
+	text-decoration: none;
+    color: black;
+}
+.bottom-line {
+    width: 100%; /* 465 */
+    border-bottom: solid 1px #dadada;
+
+}
+.web-link-block{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.web-link-block .web-link-list
+{
+	padding-top:25px;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.web-link-block .web-link-list{
+	padding-bottom: 10px;
+}
+.web-link-block .web-link-list button{
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	border: solid 1px #dadada;
+	text-align: left;
+	background: white;
+	cursor: pointer;
+}
+.web-link-block .web-link-list button:hover{
+	background: #dadada;
+}
+.web-button {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.web-button-logo {
+    margin-right: 10px;
+    width: 30px;
+    height: 25px;
+}
+.button-text {
+    font-size: 12px;
+    margin: 17px 0 15px 0;
+    text-decoration: none;
+    color: black;
+}
+footer{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:768px;
+}
+footer .copyright span{
+	font-size: 5px;
+}

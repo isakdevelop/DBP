@@ -1,0 +1,188 @@
+@font-face {
+    font-family: "마초체";
+    src: url(/font/EF_마초체.ttf);
+}
+
+/* 레이아웃 틀 */
+
+.main-button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+#content {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 50%; /* 460px */
+}
+
+/* 입력폼 */
+
+h3 {
+    margin: 19px 0 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.box {
+    display: block;
+    width: 100%;
+    height: 51px;
+    border: solid 1px #dadada;
+    padding: 10px 14px 10px 14px;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+}
+
+.int {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 29px;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+}
+
+input {
+    font-family: Dotum,'돋움',Helvetica,sans-serif;
+    outline: 0;
+}
+
+.box.int_id {
+    padding-right: 110px;
+}
+
+.box.int_pass {
+    padding-right: 40px;
+}
+
+.box.int_pass_check {
+    padding-right: 40px;
+}
+
+.step_url {
+    /*@naver.com*/
+    position: absolute;
+    top: 16px;
+    right: 13px;
+    font-size: 15px;
+    color: #8e8e8e;
+}
+
+.pswdImg {
+    width: 18px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+#bir_wrap {
+    display: table;
+    width: 100%;
+}
+
+#bir_yy {
+    display: table-cell;
+    width: 30%; /* 147px */
+
+}
+
+#bir_mm {
+    display: table-cell;
+    width: 40%;
+    vertical-align: middle;
+}
+
+#bir_dd {
+    display: table-cell;
+    width: 30%;
+}
+
+#bir_mm, #bir_dd {
+    padding-left: 10px;
+}
+
+select {
+    width: 100%;
+    height: 29px;
+    font-size: 15px;
+    background: #fff url(https://static.nid.naver.com/images/join/pc/sel_arr_2x.gif) 100% 50% no-repeat;
+    background-size: 20px 8px;
+    -webkit-appearance: none;
+    display: inline-block;
+    text-align: start;
+    border: none;
+    cursor: default;
+    font-family: Dotum,'돋움',Helvetica,sans-serif;
+}
+
+small {
+    color: red;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* 에러메세지 */
+
+/* .error_next_box {
+    margin-top: 9px;
+    font-size: 12px;
+    color: red;
+    display: none;
+}
+
+#alertTxt {
+    position: absolute;
+    top: 19px;
+    right: 38px;
+    font-size: 12px;
+    color: red;
+    display: none;
+} */
+
+/* 버튼 */
+
+.btn_area {
+    margin: 30px 0 91px;
+    display: flex;
+}
+
+#btnJoin {
+    margin: 0 10px 0 10px;
+    width: 100%;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    background-color: blue;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "마초체";
+}
+
+/* footer */
+footer {
+    text-align: center;
+}
+
+footer .copyright-wrap span{
+   font-size: 5px;
+   line-height: 15px;
+}
+
+#check_id_1, #check_id_2, #check_id_3, #check_id_4, #check_pw_1, #check_pw_2, #check_pw_3, #compare_pw_1, #compare_pw_2, #compare_pw_3, #check_year, #check_day, #check_yy_dd, #this_is_real, #check_email_1, #check_email_2 {
+  display: none;
+}

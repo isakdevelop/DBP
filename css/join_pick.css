@@ -1,0 +1,102 @@
+.main-container{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-top: 21px;
+}
+
+.main-container .main-wrap{
+	width:100%; /* 768px */
+
+}
+.main-container .main-wrap .main-logo{
+	padding-top:55px;
+}
+.main-container .main-wrap header .main-logo{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* pick_icon */
+
+.pick_frame {
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+	  text-align: center;
+    align-items: center;
+}
+
+.basic {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+    background-image: url(../img/login_citizen.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+.admin {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+    background-image: url(../img/login_police.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+.pick_frame_text {
+    margin: 0 auto;
+    background: blue;
+    color: white;
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+/*  */
+.bottom-line {
+    width: 100%; /* 465 */
+    margin-top: 20px;
+    border-bottom: solid 1px black;
+
+}
+
+footer{
+	padding-top: 20px;
+	padding-bottom: 30px;
+
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:768px;
+}
+footer .copyright-wrap span{
+	font-size: 5px;
+	line-height: 15px;
+}
+
+.join-button {
+	text-align: center;
+}
+.j-button {
+	width: 100px;
+	height: 50px;
+	background: blue;
+	color: white;
+	border: 1px solid blue;
+	border-radius: 10%;
+	margin: 40px 5px 10px 5px;
+}
+.main-button {
+	border: none;
+	cursor: pointer;
+	background: none;
+}

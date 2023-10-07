@@ -1,0 +1,198 @@
+.ViewWeb{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+body{
+  margin: 0;
+}
+.header{
+  width: 100%;
+  height: 120px;
+
+}
+.explainText{
+  text-align: center;
+   margin-top:20px;
+   margin-bottom:20px;
+  font-size: 20px;
+}
+.input{
+  margin-left: 0.5%;
+  width: 100.5%;
+  height: 55px;
+}
+
+#inputText{
+  float: left;
+  font-size: 15px;
+  border: solid 2px #59cdff;
+  width:70%;
+  height: 44px;
+  margin-bottom: 0px;
+  margin-left:23px;
+}
+#searchButton{
+ border: solid 2px #59cdff;
+  color: white;
+  background: #59cdff;
+  font-size: 20px;
+  width: 20%;
+  height: 44px;
+  padding: 0;
+}
+#map{
+  width: 91.5%;
+  height:450px;
+  margin-left:4%;
+  margin-bottom:2%;
+}
+.footer{
+  margin:0;
+  text-align: center;
+}
+#content{
+  border: solid 2px #59cdff;
+  text-align: center;
+  font-size: 15px;
+  width: 90.5%;
+  height: 120px;
+
+}
+#submitButton{
+  margin-top: 1%;
+  color: white;
+  background: #59cdff;
+  font-size: 30px;
+  width: 92%;
+  height: 50px;
+  border: 0px;
+  }
+
+/* @media screen and (min-width: 200px) and (max-width: 1023px) {
+  body{
+    margin: 0;
+  }
+  .header{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  .explainText{
+    text-align: center;
+    font-size: 35px;
+    margin: 20px;
+  }
+  .input{
+    margin: 0px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  #inputText{
+    float: left;
+    font-size: 25px;
+    border: solid 2px #59cdff;
+    width:79%;
+    height: 102px;
+  }
+  #searchButton{
+   border: solid 2px #59cdff;
+    color: white;
+    background: #59cdff;
+    font-size: 45px;
+    width: 19.8%;
+    height: 106px;
+    padding: 0;
+  }
+  #map{
+    margin-bottom: 20px;
+    width:100%;
+    height:1000px;
+  }
+  .footer{
+    margin-top: 5px;
+    text-align: center;
+  }
+  #content{
+    border: solid 2px #59cdff;
+    text-align: center;
+    font-size: 25px;
+    width: 99%;
+    height: 200px;
+    padding-top: 180px;
+    margin-bottom: 20px;
+  }
+  #submitButton{
+    color: white;
+    background: #59cdff;
+    font-size: 45px;
+    width: 100%;
+    height: 150px;
+    border: 0px;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 1023px) {
+  body{
+    margin: 0;
+  }
+  .header{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  .explainText{
+    text-align: center;
+    font-size: 35px;
+    margin: 20px;
+  }
+  .input{
+    margin: 0px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  #inputText{
+    float: left;
+    font-size: 25px;
+    border: solid 2px #59cdff;
+    width:79%;
+    height: 102px;
+  }
+  #searchButton{
+   border: solid 2px #59cdff;
+    color: white;
+    background: #59cdff;
+    font-size: 45px;
+    width: 19.8%;
+    height: 106px;
+    padding: 0;
+  }
+  #map{
+    margin-bottom: 20px;
+    width:100%;
+    height:1000px;
+  }
+  .footer{
+    text-align: center;
+  }
+  #content{
+    border: solid 2px #59cdff;
+    text-align: center;
+    font-size: 25px;
+    width: 99%;
+    height: 200px;
+    padding-top: 180px;
+    margin-bottom: 20px;
+  }
+  #submitButton{
+    color: white;
+    background: #59cdff;
+    font-size: 45px;
+    width: 100%;
+    height: 150px;
+    border: 0px;
+  }
+} */

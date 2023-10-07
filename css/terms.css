@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "마초체";
+    src: url(/font/EF_마초체.ttf);
+}
+
+@media screen and (max-width: 600px) {
+	.li-title {
+		font-size: 5px;
+		font-weight: bold;
+	}
+}
+
+.main-container{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-top: 21px;
+}
+
+.main-container .main-wrap{
+	width:100%; /* 768px */
+
+}
+.main-container .main-wrap .main-logo{
+	padding-top:55px;
+}
+.main-container .main-wrap header .main-logo{
+	display:flex;	
+	flex-direction: column;
+	align-items: center;
+}
+footer{
+	padding-top: 20px;
+	padding-bottom: 30px;
+
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:768px;
+}
+footer .copyright-wrap span{
+	font-size: 5px;
+	line-height: 15px;
+}
+.li-title {
+    font-weight: bold;
+}
+.terms_box {
+	overflow: auto;
+	height: 300px;
+	margin: 20px 0 20px 0;
+	padding: 12px;
+	border: 1px solid #dadada;
+	background: none;
+	box-sizing: border-box;
+}
+.text-title {
+	font-size: 15px;
+	font-weight: bold;
+}
+p {
+	font-size: 13px;
+}
+small {
+	color: red;
+}
+.join-button {
+	text-align: center;
+}
+.j-button {
+	width: 100px;
+	height: 50px;
+	background: blue;
+	color: white;
+	border: 1px solid blue;
+	font-family: "마초체";
+	border-radius: 10%;
+	margin: 10px 5px 10px 5px;
+}
+.main-button {
+	border: none;
+	cursor: pointer;
+	background: none;
+}
+label {
+	cursor: pointer;
+}
